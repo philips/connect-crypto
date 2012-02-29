@@ -1,0 +1,35 @@
+{
+  "name": "connect-aes",
+  "description": "connect middleware to aes encrypt",
+  "version": "0.1.0",
+  "author": "Brandon Philips <brandon@ifup.org>",
+  "keywords": [ "aes", "connect", "encrypt" ],
+  "homepage": "https://github.com/philips/connect-aes",
+  "licenses" : [
+    { "type" : "Apache",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/philips/connect-aes.git"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec test/encrypt.js"
+  },
+  "dependencies": {
+    "logmagic": ">= 0.1.4",
+    "sprintf": ">= 0.1.1",
+    "request": "2.2.5"
+  },
+  "devDependencies": {
+    "mocha": "0.13.x",
+    "connect": "2.0.0"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
+
