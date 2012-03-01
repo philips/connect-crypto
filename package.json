@@ -1,5 +1,5 @@
 {
-  "name": "connect-aes",
+  "name": "connect-crypto",
   "description": "connect middleware to aes encrypt",
   "version": "0.1.0",
   "author": "Brandon Philips <brandon@ifup.org>",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/philips/connect-aes.git"
+    "url": "git://github.com/philips/connect-crypto.git"
   },
   "directories": {
     "lib": "lib"
